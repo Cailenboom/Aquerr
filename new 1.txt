@@ -1,0 +1,93 @@
+                                                                                        */
+[13:56:01] [Server thread/WARN] [Sponge]: /**********************************************************************************************************************************************/
+[13:56:01] [Server thread/WARN] [Sponge]: /**********************************************************************************************************************************************/
+[13:56:01] [Server thread/WARN] [Sponge]: /*                                                   Could not pass  SpawnEntityEvent$Impl                                                    */
+[13:56:01] [Server thread/WARN] [Sponge]: /**********************************************************************************************************************************************/
+[13:56:01] [Server thread/WARN] [Sponge]: /* Could not pass the event SpawnEntityEvent$Impl to an Event Listener!                                                                       */
+[13:56:01] [Server thread/WARN] [Sponge]: /*                                                                                                                                            */
+[13:56:01] [Server thread/WARN] [Sponge]: /* Since the event can be modified during the event's listener,                                                                               */
+[13:56:01] [Server thread/WARN] [Sponge]: /* there could be adverse side effects of the exception occurring                                                                             */
+[13:56:01] [Server thread/WARN] [Sponge]: /* such that duplications or other game breaking issues could exist.                                                                          */
+[13:56:01] [Server thread/WARN] [Sponge]: /*                                                                                                                                            */
+[13:56:01] [Server thread/WARN] [Sponge]: /* Due to the nature of the exception, this is not likely an exception                                                                        */
+[13:56:01] [Server thread/WARN] [Sponge]: /* that is covered by SpongeForge or Forge itself, and therefore should                                                                       */
+[13:56:01] [Server thread/WARN] [Sponge]: /* be reported to the mod/plugin author first prior to reporting to                                                                           */
+[13:56:01] [Server thread/WARN] [Sponge]: /* Sponge or Forge.                                                                                                                           */
+[13:56:01] [Server thread/WARN] [Sponge]: /*                                                                                                                                            */
+[13:56:01] [Server thread/WARN] [Sponge]: /* Owning Mod/Plugin: eaglefactions                                                                                                           */
+[13:56:01] [Server thread/WARN] [Sponge]: /* Exception:                                                                                                                                 */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     java.lang.NoClassDefFoundError:                                                                                                        */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net/minecraft/client/resources/I18n                                                                                                    */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.dries007.tfc.objects.entity.EntityFallingBlockTFC.func_70005_c_(EntityFallingBlockTFC.java:291)                                    */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.entity.Entity.toString(Entity.java:2505)                                                                                 */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     io.github.aquerr.eaglefactions.common.listeners.EntitySpawnListener.onEntitySpawn(EntitySpawnListener.java:90)                         */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.listener.SpawnEntityEventListener_EntitySpawnListener_onEntitySpawn47.handle(Unknown Source)            */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:97)                                                   */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383)                                                 */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:335)                                                 */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:450)                                         */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419)                                                 */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.SpongeEventManager.post(SpongeEventManager.java:467)                                                    */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:249)                                                                     */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.SpongeCommonEventFactory.callSpawnEntity(SpongeCommonEventFactory.java:299)                             */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.IPhaseState.spawnEntityOrCapture(IPhaseState.java:245)                                         */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.PhaseTracker.spawnEntity(PhaseTracker.java:1099)                                               */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:4501)                                                                    */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.dries007.tfc.api.util.FallingBlockManager.checkFalling(FallingBlockManager.java:276)                                               */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.dries007.tfc.api.util.FallingBlockManager.checkFalling(FallingBlockManager.java:220)                                               */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.dries007.tfc.CommonEventHandler.onNeighborNotify(CommonEventHandler.java:157)                                                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.eventhandler.ASMEventHandler_33_CommonEventHandler_onNeighborNotify_NeighborNotifyEvent.invoke(.dynamic) */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)                                             */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:756)                                                */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:711)                                                */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostNeighborNotifyEvent(SpongeToForgeEventFactory.java:708)             */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostForgeEvent(SpongeToForgeEventFactory.java:248)                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:339)                                                 */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:450)                                         */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419)                                                 */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.SpongeEventManager.post(SpongeEventManager.java:467)                                                    */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:249)                                                                     */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.SpongeCommonEventFactory.callNotifyNeighborEvent(SpongeCommonEventFactory.java:747)                     */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.world.WorldServer.throwNotifyNeighborAndCall(WorldServer.java:4686)                                                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.world.WorldServer.func_175685_c(WorldServer.java:4665)                                                                   */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.world.World.func_175722_b(World.java:440)                                                                                */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.performNeighborAndClientNotifications(TrackingUtil.java:727)                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.performTransactionProcess(TrackingUtil.java:670)                                  */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.performBlockAdditions(TrackingUtil.java:600)                                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.processBlockCaptures(TrackingUtil.java:463)                                       */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.processBlockCaptures(TrackingUtil.java:392)                                       */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.phase.plugin.EventListenerPhaseState.unwind(EventListenerPhaseState.java:46)                   */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.phase.plugin.EventListenerPhaseState.unwind(EventListenerPhaseState.java:30)                   */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.PhaseTracker.completePhase(PhaseTracker.java:317)                                              */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.PhaseContext.close(PhaseContext.java:618)                                                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:757)                                                */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:711)                                                */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostNeighborNotifyEvent(SpongeToForgeEventFactory.java:708)             */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostForgeEvent(SpongeToForgeEventFactory.java:248)                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:339)                                                 */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:450)                                         */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419)                                                 */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.SpongeEventManager.post(SpongeEventManager.java:467)                                                    */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:249)                                                                     */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.SpongeCommonEventFactory.callNotifyNeighborEvent(SpongeCommonEventFactory.java:747)                     */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.world.WorldServer.throwNotifyNeighborAndCall(WorldServer.java:4686)                                                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.world.WorldServer.func_175685_c(WorldServer.java:4665)                                                                   */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.world.World.func_175722_b(World.java:440)                                                                                */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.performNeighborAndClientNotifications(TrackingUtil.java:727)                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.context.BlockTransaction$ChangeBlock.process(BlockTransaction.java:477)                        */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.context.MultiBlockCaptureSupplier.processTransactions(MultiBlockCaptureSupplier.java:729)      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.performBlockAdditions(TrackingUtil.java:594)                                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.processBlockCaptures(TrackingUtil.java:463)                                       */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.processBlockCaptures(TrackingUtil.java:392)                                       */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.phase.tick.BlockTickPhaseState.unwind(BlockTickPhaseState.java:141)                            */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.phase.tick.BlockTickPhaseState.unwind(BlockTickPhaseState.java:61)                             */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.PhaseTracker.completePhase(PhaseTracker.java:317)                                              */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.PhaseContext.close(PhaseContext.java:618)                                                      */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.tracking.TrackingUtil.randomTickBlock(TrackingUtil.java:311)                                            */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:3815)                                                                   */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:225)                                                                     */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:756)                                                            */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)                                                  */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)                                                            */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)                                                                     */
+[13:56:01] [Server thread/WARN] [Sponge]: /*     java.lang.Thread.run(Unknown Source)                                                                                                   */
